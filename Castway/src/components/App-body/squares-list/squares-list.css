@@ -1,0 +1,6 @@
+.app_body_squares_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 20px;
+  gap: 10px;
+}

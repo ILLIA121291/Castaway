@@ -1,0 +1,20 @@
+.app_body_latest_episodes_header_titel {
+  color: #fff;
+
+  font-family: 'DM Sans';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: 2.88px;
+}
+
+.app_body_latest_episodes_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app_body_latest_episodes_list {
+  margin-top: 60px;
+}

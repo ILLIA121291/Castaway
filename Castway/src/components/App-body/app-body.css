@@ -1,0 +1,9 @@
+.app_body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  border: 1px solid #f09917;
+
+  display: flex;
+  flex-direction: column;
+}

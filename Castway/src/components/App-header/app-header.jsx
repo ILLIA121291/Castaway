@@ -1,5 +1,6 @@
 import './app-header.css';
 import HeaderBody from './header-body/header-body';
+import Menu from './menu_panel/menu/menu';
 import MenuPanel from './menu_panel/menu_panel';
 
 function AppHeader() {

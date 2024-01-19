@@ -1,0 +1,7 @@
+.container_for_stars > img {
+  margin-right: 5px;
+}
+
+.container_for_stars > img:last-child {
+  margin-right: 0px;
+}
