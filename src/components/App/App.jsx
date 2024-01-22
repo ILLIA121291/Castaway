@@ -1,4 +1,5 @@
 import AppBody from '../App-body/app-body';
+import AppFooter from '../App-footer/app-footer';
 import AppHeader from '../App-header/app-header';
 import './App.css';
 
@@ -29,7 +30,7 @@ const data = [
     tag: 'Gear',
   },
   {
-    id: 1,
+    id: 4,
     image: '/image_latest_episodes/IMAGE_1.png',
     episode: 3,
     titel: 'Should you get outboard audio gear?',
@@ -86,6 +87,7 @@ function App() {
     <>
       <AppHeader />
       <AppBody data={data} squares={squares} />
+      <AppFooter />
     </>
   );
 }

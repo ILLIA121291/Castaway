@@ -1,0 +1,45 @@
+.app_footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 50px;
+  border: 1px solid #f09917;
+
+  display: flex;
+  gap: 16px;
+}
+
+.app_footer_logo {
+  display: flex;
+  flex-direction: column;
+  max-width: 447px;
+  width: 100%;
+}
+
+.app_footer_logo_social_media {
+  margin-top: 23px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.app_footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  color: #fff;
+
+  font-family: 'DM Sans';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159%;
+}
+
+.app_footer_links > a {
+  transition: color 0.3s;
+}
+
+.app_footer_links > a:hover {
+  color: #118da8;
+}

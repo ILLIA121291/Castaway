@@ -63,6 +63,7 @@
 
 .header_body_part_right_links_text {
   display: block;
+  margin-bottom: 16px;
   color: #fff;
 
   font-family: 'DM Sans';
@@ -72,15 +73,6 @@
   line-height: 160%;
 }
 
-.header_body_part_right_links_links {
-  margin-top: 16px;
-  display: flex;
-}
-
-.header_body_part_right_links_links > a {
-  display: block;
-  margin-right: 17px;
-}
 
 /* Media Queries 900px */
 

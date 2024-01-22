@@ -1,0 +1,35 @@
+.menu_header {
+  display: flex;
+  padding: 20px;
+}
+
+.menu_links {
+  color: #fff;
+
+  font-family: 'DM Sans';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159%;
+  transition: color 0.3s;
+}
+
+.menu_links:hover {
+  color: #118da8;
+}
+
+.menu_header_links {
+  margin-right: 40px;
+}
+
+.menu_header_links:last-child {
+  margin-right: 0px;
+}
+
+.menu_footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 179px;
+  width: 100%;
+  gap: 10px;
+}

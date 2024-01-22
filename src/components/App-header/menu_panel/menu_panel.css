@@ -1,0 +1,23 @@
+.menu_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* Media Queries 700px */
+
+@media (max-width: 700px) {
+  .menu_panel {
+    flex-direction: column;
+  }
+}
+
+/* Media Queries 700px */
+
+@media (max-width: 370px) {
+  .menu_panel_menu_a {
+    margin-right: 20px;
+  }
+}
