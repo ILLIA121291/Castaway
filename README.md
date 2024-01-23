@@ -1,8 +1,7 @@
-# React + Vite
+Castway 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is one page website
 
-Currently, two official plugins are available:
+This site is made using only React. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Also this web site is responsive design for mobile devices and for personal computers. For this purpose, media query technology is used. Screen width starting from 320px to no limits.
