@@ -2,7 +2,6 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 100px 50px;
-  border: 1px solid #f09917;
 
   display: flex;
   gap: 16px;
@@ -42,4 +41,27 @@
 
 .app_footer_links > a:hover {
   color: #118da8;
+}
+
+@media (max-width: 800px) {
+  .app_footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app_footer_logo {
+    width: auto;
+  }
+
+  .app_footer_logo_social_media {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .app_footer_links {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }

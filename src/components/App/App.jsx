@@ -70,16 +70,6 @@ const squares = [
     titel: 'I’ve upped my game considerably since I started listening',
     authour: 'Steven Blast',
   },
-  {
-    id: 7,
-    titel: 'I’ve upped my game considerably since I started listening',
-    authour: 'Steven Blast',
-  },
-  {
-    id: 8,
-    titel: 'I’ve upped my game considerably since I started listening',
-    authour: 'Steven Blast',
-  },
 ];
 
 function App() {
